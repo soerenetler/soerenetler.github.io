@@ -11,14 +11,14 @@ env:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
   - secure: fRV5wsNKzGqq7IbQUPthzNzWlA1WoGhjCRuYgBhLyQ7sz1txdcAqMTuVwQZZiJoMjTHKEIIsUHKV8husrb5yMK/HOGPvhgmCRb0TJJY9ubAmThUKPwUAxCPTRLznged6Cuz2CE/JlYJ2RvTG4Xc+TZCWM37ACIPuP+legzdGRZiiVn8LZhyLsmJYMQw+jjbeGjBrGb45yz/xHYOIFtfD1RuwbydLlfM15j+DE8hcLej5OQLLm4l6cjUmmeFwAHnt5xhTHMywn1z5+wdTDQVnbTNIjAehIKgdpEVF3+vEP+rre+GyqCRPpnyIBVj9XQCipkulPi0Xz0Ry65REfv5pFMAaEmt1itByMGDl46HgyD+Lv3dgf3tXIJZf53IX/p6E31vy/XrQIDWjwHyfoh46uZIqRI5PjH4PUefL9ZCgOLCgHeF3fPYiVFFTObVj/2piPveSM/e2qqUgEuSbewqnHR6HyvZjce44aFlAKc+ltvGHi+yH7xShTScIGWHGD3QUSyYQavKVVEbOkgxa5E6tMPolMRmpoyEijXqP9dzkyhjuUCCx4vjCuvPPO8LU9DAx1c0eyki3Ga5pI/nunpj7uuk1lLJXVQijCLtvNHRdXXBawlHygDmuNYFq9vprBRbqhyQfbzNU83DguWRL1eg3oTFfuQjah8SmwyIvWv4+FGo=
 
-script: jgd -u http://soerenetler:$PASSWORD@github.com/soerenetler/soerenetler.github.io.git
+script: jgd -u https://soerenetler:$PASSWORD@github.com/soerenetler/soerenetler.github.io.git
   -b master -r gh-pages
 
 addons:
   apt:
     packages:
     - libcurl4-openssl-dev
-    
+
 sudo: false
 cache: bundler
 notifications:
