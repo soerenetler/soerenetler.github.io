@@ -5,14 +5,13 @@ permalink: /imprint/
 
 Angaben gemäß § 5 TMG
 
-Sören Etler  
-Zum Mühlenteich 4  
+Sören Etler\
+Zum Mühlenteich 4\
 14476 Potsdam
 
-Kontakt:  
-Telefon: +49 176 521 638 47  
+Kontakt:\
+Telefon: +49 176 521 638 47\
 E-Mail: soeren.etler@gmail.com
-
 
 # Haftungsausschluss
 
